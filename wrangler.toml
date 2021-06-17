@@ -1,0 +1,10 @@
+name = "stock"
+type = "javascript"
+
+account_id = "f94e9216046f8820e35a521d046c6268"
+workers_dev = true
+route = ""
+zone_id = ""
+kv_namespaces = [
+    { binding = "NAMESPACE", id = "696e232a4e2a4b88b4539ddde8becd21", preview_id = "65ed70b3ca7d49179aeb2aace9b4edb6" }
+]

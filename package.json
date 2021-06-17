@@ -1,0 +1,24 @@
+{
+  "private": false,
+  "name": "stock-api",
+  "version": "1.0.0",
+  "description": "An API to retrieve the US Stock real time quote",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "pack": "browserify index.js -o bundle.js",
+    "publish": "wrangler publish",
+    "dev": "wrangler dev"
+  },
+  "author": "Norman Kong",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33"
+  }
+}
