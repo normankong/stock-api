@@ -1,5 +1,5 @@
 
-const URL_PARAM = "https://financialmodelingprep.com/api/v3/quote/%SYMBOL%?apikey=%API_KEY%";
+const ENDPOINT = "https://financialmodelingprep.com/api/v3/quote/%SYMBOL%?apikey=%API_KEY%";
 const VALID_SYMBOL = /^[A-Z|0-9]{0,5}$/;
 const moment = require("moment-timezone");
 
@@ -26,7 +26,7 @@ async function handleRequest(request) {
   const API_KEY = await NAMESPACE.get("API_KEY");
 
   // Replace Symobl
-  let url = URL_PARAM.replace("%SYMBOL%", symbol).replace("%API_KEY%", API_KEY);
+  let url = ENDPOINT.replace("%SYMBOL%", symbol).replace("%API_KEY%", API_KEY);
 
   // Fetch Stock Quote
   const response = await fetch(url, REQUEST_HEADER);
