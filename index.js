@@ -1,6 +1,6 @@
 
 const ENDPOINT = "https://financialmodelingprep.com/api/v3/quote/%SYMBOL%?apikey=%API_KEY%";
-const VALID_SYMBOL = /^[A-Z|0-9]{0,5}$/;
+const VALID_SYMBOL = /^[A-Z|0-9]{1,5}$/;
 const moment = require("moment-timezone");
 
 // Main Handler
