@@ -1,4 +1,5 @@
 # Real time US Stock Quote API
+[![Publish](https://github.com/normankong/stock-api/actions/workflows/main.yml/badge.svg)](https://github.com/normankong/stock-api/actions/workflows/main.yml)
 
 This is a API service to provide the US Stock quote, host on Cloudflare Worker platform.  
 Data source from [Financial Modeling Prep](https://financialmodelingprep.com/). Register your free API Key [here](https://financialmodelingprep.com/register).
