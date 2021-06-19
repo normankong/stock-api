@@ -5,7 +5,6 @@ This is a API service to provide the US Stock quote, host on Cloudflare Worker p
 Data source from [Financial Modeling Prep](https://financialmodelingprep.com/). Register your free API Key [here](https://financialmodelingprep.com/register).
 
 ### To use directly
-https://stock.normankong.workers.dev/  
 https://stock.normankong.workers.dev/TSLA  (Up to 5 A-Z|0-9 Char)
 
 ### To Build 
