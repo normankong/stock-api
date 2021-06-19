@@ -16,7 +16,7 @@ async function handleRequest(request) {
   let symbol = uriList[1];
 
   if (!VALID_SYMBOL.test(symbol)) {
-    let error = { "error": `Invalid Symbol ${symbol}` };
+    let error = { "error": `Invalid or Empty Symbol ${symbol}` };
     return new Response(JSON.stringify(error, null, ''), {
       headers: { 'content-type': 'text/json; charset=utf-8' },
     })
